@@ -21,5 +21,5 @@ chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
 kubectl version -o yaml
 
-minikube start 
+minikube start --driver=docker
 minikube status
